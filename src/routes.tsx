@@ -3,10 +3,10 @@ import { AnimatePresence } from 'framer-motion';
 import { useTheme } from 'styled-components';
 import { View } from 'react-native';
 
-import { useAuth } from '../src/hooks/useAuth';
+import { useAuth } from './hooks/useAuth';
 
-import { SignIn } from '../src/screens/SignIn';
-import { Home } from '../src/screens/Home';
+import { SignIn } from './screens/SignIn';
+import { Home } from './screens/Home';
 
 export function Routes() {
   const theme = useTheme();
